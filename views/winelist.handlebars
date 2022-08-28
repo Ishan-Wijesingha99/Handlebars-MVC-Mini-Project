@@ -1,5 +1,13 @@
 <section>
 
-    {{dbWineDataFinal}}
+    {{#each dbWineDataFinal as |object|}}
+        <h3 class="wine-name">Name - {{object.wine_name}}</h3>
+    {{/each}}
+
+    <div class="btn-container">
+    <a class="btn" href="/pizza">Pizza Page</a>
+    </div>
 
 </section>
+
+{{> offers}}

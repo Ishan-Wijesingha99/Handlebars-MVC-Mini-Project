@@ -8,7 +8,8 @@ const sequelize = new Sequelize(
   {
     host: 'localhost',
     dialect: 'mysql',
-    port: 4000,
+    // THE PORT HAS TO BE 3306 FOR SEQUELIZE!!! IT CAN'T BE ANY OTHER PORT
+    port: 3306,
   }
 );
 

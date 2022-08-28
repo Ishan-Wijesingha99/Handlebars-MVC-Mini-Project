@@ -1,5 +1,13 @@
 <section>
 
-    {{dbPizzaDataFinal}}
+    {{#each dbPizzaDataFinal as |object|}}
+        <h3 class="pizza-name">Name - {{object.pizza_name}}</h3>
+    {{/each}}
+
+    <div class="btn-container">
+    <a class="btn" href="/wine">Wine Page</a>
+    </div>
 
 </section>
+
+{{> offers}}

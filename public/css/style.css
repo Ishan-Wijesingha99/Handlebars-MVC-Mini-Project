@@ -2,8 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
 }
 
-h1, p, h2 {
-    background-color: blueviolet;
+body {
+    background-color: rgb(219, 131, 131);
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(240, 131, 21);
+    margin-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(240, 131, 21);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footer p {
+    margin: 10px;
+}
+
+.pizza-name, .wine-name {
+    margin: 20px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(240, 131, 21);
+    margin-top: 50px;
+}
+
+
+
+

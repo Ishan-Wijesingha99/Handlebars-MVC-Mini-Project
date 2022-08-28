@@ -6,6 +6,7 @@ const allRoutes = require('./controllers');
 const sequelize = require('./config/connection');
 
 const app = express();
+// the port that YOUR server listens on shouldn't be the same port as specified in config/connection.js where you set up the sequelize connection
 const PORT = process.env.PORT || 4000;
 
 const hbs = exphbs.create({});

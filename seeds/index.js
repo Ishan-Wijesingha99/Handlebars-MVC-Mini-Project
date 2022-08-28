@@ -3,6 +3,7 @@ const seedPizza = require('./pizzaData');
 const seedWine = require('./wineData');
 
 const seedAll = async () => {
+
   await sequelize.sync({ force: true });
 
   await seedPizza();

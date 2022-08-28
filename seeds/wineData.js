@@ -23,7 +23,7 @@ const wineData = [
 ]
 
 
-const seedWine = () => Pizza.bulkCreate(wineData)
+const seedWine = () => Wine.bulkCreate(wineData)
 
 
 module.exports = seedWine
